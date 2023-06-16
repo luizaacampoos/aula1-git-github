@@ -1,6 +1,7 @@
 # aula1-git-github
 Este repositório é para fins de estudo do módulo git e github.
 
+<img src="https://jonathasguerra.com.br/blog/wp-content/uploads/2018/04/git.jpg" width="500px">
 
 - **Para criar pasta:**
 
@@ -44,7 +45,7 @@ Este repositório é para fins de estudo do módulo git e github.
 
 - **Para registrar o comentário (commit):**
 
-``git commit -m "comentário aqui"
+``git commit -m "comentário aqui"``
 
 - **Para retornar ao último commit, mantendo as alterações feitas nos arquivos:**
 
