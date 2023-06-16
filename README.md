@@ -2,49 +2,54 @@
 Este repositório é para fins de estudo do módulo git e github.
 
 
-- Para criar pasta:
-mkdir (nome da pasta) 
+- **Para criar pasta:**
 
-- Para selecionar pasta: 
-cd (nome da pasta)
+``mkdir nome-da-pasta``
 
-- Para sair de uma pasta:
-cd .. 
+- **Para acessar pasta:**
 
-- Para iniciar repositório git:
-git init
+``cd nome-da-pasta``
 
-- Para limpar:
-clear
-- Para listar arquivos e pastas:
-ls
+- **Para sair de uma pasta:**
 
-- Para criar arquivos:
-echo "# nome-da-pasta" >> arquivo.extensão
- 
-- Para adicionar conteúdo(arquivos):
-git add nome-do-arquivo-pasta
+``cd ..``
 
-- Para desfazer um add geral(add .)
-git reset
+- **Para iniciar repositório:** 
 
-- Para adicionar todos os arquivos/pastas:
-git add .
+``git init``
 
-- Para desfazer um add específico:
-git reset nome-do-arquivo
+- **Listar arquivos e pastas:**
 
-- Para registrar o comentário (commit)
-git commit -m "comentário aqui"
+``ls``
 
-- Para desfazer um add geral:
-git reset
-- Retorna ao último commit,matendo as alterações feitas nos arquivos 
+- **Para criar arquivos:** 
 
-git reset --soft HEAD~1
+``touch nome-do-arquivo.extensão ou pasta``
 
-- Retorna ao último commit, removendo as alterações feitas nos arquivos 
+- **Para adicionar conteúdo(arquivo/pasta):**
 
-git reset --hard HEAD~1
+``git add nome-do-arquivo-pasta``
 
+- **Para adicionar todos os arquivos/pastas:**
 
+``git add .``
+
+- **Para desfazer um add específico:**
+
+``git reset nome-do-arquivo``
+
+- **Para desfazer um add geral(add .):**
+
+``git reset``
+
+- **Para registrar o comentário (commit):**
+
+``git commit -m "comentário aqui"
+
+- **Para retornar ao último commit, mantendo as alterações feitas nos arquivos:**
+
+``git reset --soft HEAD~1``
+
+- **Para retornar ao último commit, removendo as alterações feitas nos arquivos:**
+
+``git reset --hard HEAD~1``
